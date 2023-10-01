@@ -6,7 +6,7 @@ import a2 from '/src/assets/a-class/a2.jpg'
 
 const A_Class = () => {
   return (
-    <div className='w-full  h-[1600px] md:h-[1000px] flex justify-center py-24 bg-zinc-300 '>
+    <div className='w-full  h-[1600px] md:h-[1000px]  flex justify-center py-24 bg-zinc-300 '>
      
       <div className='text-2xl md:text-3xl  md:ml-[-800px] text-center mt-[20px]'>
         <a className='font-bold text-center'> 
@@ -14,7 +14,7 @@ const A_Class = () => {
           <br/>
           <span>Mercedes-Benz A-Class Limousine</span> 
         </a>
-          <div className='w-[431px] ml-[-5px] mt-[30px]  md:w-[495px] md:ml-[800px] md:mt-[40px]'>
+          <div className='w-[360px] ml-[-5px] mt-[30px]  md:w-[495px] md:ml-[800px] md:mt-[40px]'>
             <img src={a1}/>
           </div>
        </div>
