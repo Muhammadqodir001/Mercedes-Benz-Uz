@@ -16,7 +16,7 @@ const A_Class = () => {
     </div>
        
 
-        <div className="text-center  gap-10 md:gap-20 md:ml-[275px] ml-[50px] mt-[40px] grid sm:grid-cols-1 w-[400px] md:w-[960px]  lg:grid-cols-2 items-center">
+        <div className="text-center w-full gap-10 md:gap-20 md:ml-[275px]  mt-[40px] grid sm:grid-cols-1  md:w-[960px]  lg:grid-cols-2 items-center">
           
           <div className="card  shadow-md  hover:shadow-2xl py-4 px-3 rounded-md hover:shadow-slate-500  bg-gradient-to-br  from-gray-500 ">
             <div >
