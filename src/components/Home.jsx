@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-
+import bag from '/src/assets/bag.webp'
 
 const Home = () => {
   const [nav, setNav] = useState(false);
@@ -11,7 +11,7 @@ const Home = () => {
     <div name='home' className='w-full py-20 text-center object-center justify-center h-full flex flex-1 md:flex-row flex-col items-center'>
 
      <div className='h-[600px]'>  
-      <img className='md:w-[1000px] w-full ml-[10px] md:ml-[-200px]  '  src='src/assets/bag.webp'/>  
+      <img className='md:w-[1000px] w-full ml-[10px] md:ml-[-200px]  ' src={bag}/>  
      </div>
       <motion.div
           initial={{opacity: 0, scale: 0, x: 500 }}
@@ -28,8 +28,6 @@ const Home = () => {
           <Link onClick={handleClick} to='vehicle'> Pick Your car </Link>
         </button>
         </motion.div>
-
-     
 
       </div> 
   );
