@@ -14,7 +14,7 @@ const A_Class = () => {
           <br/>
           <span className='md:ml-[0px]'>Mercedes-Benz A-Class Limousine</span> 
         </a>
-          <div className='w-[350px] ml-[5px] mt-[30px]  md:w-[495px] md:ml-[800px] md:mt-[40px]'>
+          <div className='w-[350px] ml-[11px] mt-[30px]  md:w-[495px] md:ml-[800px] md:mt-[40px]'>
             <img src={a1}/>
           </div>
        </div>
