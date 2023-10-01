@@ -54,7 +54,7 @@ const A_Class = () => {
                 <span className='text-sm'>2022.</span> 
            </div>
            <div className='justify-between md:mt-[50px] flex mt-[80px]'>
-           <a className="text-green-600 hover:scale-125 ml-[210px] md:ml-[260px] mt-[-20px] duration-300 hover:text-white">
+           <a className="text-green-600 hover:scale-125 ml-[190px] md:ml-[260px] mt-[-20px] duration-300 hover:text-white">
            <FaPhone />
            </a>
            <a className='text-xl ml-[-20px] mt-[-28px] md:ml-[0]'>
@@ -136,7 +136,7 @@ const A_Class = () => {
            </div>
 
            <div className='justify-between md:mt-[60px] flex mt-[80px]'>
-           <a className="text-green-600 hover:scale-125 ml-[210px] md:ml-[260px] mt-[-20px] duration-300 hover:text-white">
+           <a className="text-green-600 hover:scale-125 ml-[190px] md:ml-[260px] mt-[-20px] duration-300 hover:text-white">
            <FaPhone />
            </a>
            <a className='text-xl ml-[-20px] mt-[-28px] md:ml-[0]'>
