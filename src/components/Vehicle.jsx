@@ -2,6 +2,13 @@ import React from "react";
 import { FaCheck } from 'react-icons/fa';
 import {Link} from "react-router-dom"
 
+import car1 from '/src/assets/a-class/car1.webp'
+import g4 from '/src/assets/g4/g4.webp'
+import gelic from '/src/assets/gelic/gelic.webp'
+import car4 from '/src/assets/lass-w/car4.webp'
+import car5 from '/src/assets/5/car5.webp'
+import car6 from '/src/assets/6/car6.webp'
+
 const Vehicle = () => {
 
     return (
@@ -15,7 +22,7 @@ const Vehicle = () => {
           <div className="card hover:shadow-2xl py-10 px-3 hover:shadow-slate-500 md:bg-none bg-gradient-to-br from-gray-300 ">
             <h3 >Mercedes Benz A-Class limousine</h3>
             <div className="hover:scale-90 duration-300">
-            <img src='src/assets/a-class/mercedes-benz-a-class-limousine-1.webp'  style={{ width: 400 }} />
+            <img src={car1} style={{ width: 400 }} />
             </div>
 
             <div className="overlay text-black  mt-[10px]">
@@ -40,7 +47,7 @@ const Vehicle = () => {
           <div className="card hover:shadow-2xl  py-10 px-3 hover:shadow-slate-500 md:bg-none bg-gradient-to-br from-gray-300 ">
             <h3>Mercedes-AMG GT 4</h3>
             <div className="hover:scale-90 duration-300">
-            <img src='src/assets/g4/mercedes-amg-gt-4-door-coupe-1.webp'  style={{ width: 400 }} />
+            <img src={g4}  style={{ width: 400 }} />
             </div>
 
             <div className="overlay text-black  mt-[10px]">
@@ -65,7 +72,7 @@ const Vehicle = () => {
       <div className="card hover:shadow-2xl  py-10 px-3 hover:shadow-slate-500 md:bg-none bg-gradient-to-br from-gray-300 ">
             <h3>Mercedes-Benz G-Class</h3>
             <div className="hover:scale-90 duration-300">
-            <img src='src/assets/gelic/mercedes-benz-g-class-1.webp'  style={{ width: 400 }} />
+            <img src={gelic} style={{ width: 400 }} />
             </div>
 
             <div className="overlay text-black  mt-[10px]">
@@ -90,7 +97,7 @@ const Vehicle = () => {
       <div className="card hover:shadow-2xl  py-10 px-3 hover:shadow-slate-500 md:bg-none bg-gradient-to-br from-gray-300 ">
             <h3>Mercedes-Benz S-Class</h3>
             <div className="hover:scale-90 duration-300">
-            <img src='src/assets/lass-w/mercedes-benz-s-class-wv223-1.webp'  style={{ width: 400 }} />
+            <img src={car4} style={{ width: 400 }} />
             </div>
 
             <div className="overlay text-black  mt-[10px]">
@@ -115,7 +122,7 @@ const Vehicle = () => {
       <div className="card hover:shadow-2xl  py-10 px-3 hover:shadow-slate-500 md:bg-none bg-gradient-to-br from-gray-300 ">
             <h3>Mercedes-Benz CLS Coupe</h3>
             <div className="hover:scale-90 duration-300">
-            <img src='src/assets/5/mercedes-benz-cls-coupe-2021-1.webp'  style={{ width: 400 }} />
+            <img src={car5}  style={{ width: 400 }} />
             </div>
 
             <div className="overlay text-black  mt-[10px]">
@@ -140,7 +147,7 @@ const Vehicle = () => {
       <div className="card hover:shadow-2xl  py-10 px-3 hover:shadow-slate-500 md:bg-none bg-gradient-to-br from-gray-300 ">
             <h3>Mercedes-Maybach S-Class</h3>
             <div className="hover:scale-90 duration-300">
-            <img src='src/assets/6/mercedes-maybach-s-class-2021-new-1.webp'  style={{ width: 400 }} />
+            <img src={car6} style={{ width: 400 }} />
             </div>
 
             <div className="overlay text-black  mt-[10px]">
@@ -160,7 +167,6 @@ const Vehicle = () => {
             </div>
           </div>
 
-         
           </div>
     </div> 
 );

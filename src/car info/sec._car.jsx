@@ -1,5 +1,7 @@
 import React from 'react'
 import {FaInstagram, FaFacebook, FaTwitter, FaTelegram, FaPhone} from 'react-icons/fa'
+import car1 from '/src/assets/g4/car1.jpg'
+import car2 from '/src/assets/g4/car2.jpg'
 
 const Sec_car = () => {
   return (
@@ -12,7 +14,7 @@ const Sec_car = () => {
           <span className='ml-[-10px]' >Mercedes-AMG GT 4 door Coupe</span> 
         </a>
           <div className='w-[418px] ml-[px] mt-[30px]  md:w-[499px] md:ml-[800px] md:mt-[40px]'>
-            <img src='src/assets/g4/mercedes-amg-gt-4-door-1.jpg'/>
+            <img src={car1}/>
           </div>
        </div>
           <div className='py-2 px-2 ml-[-418px] h-[340px] mt-[338px] md:ml-[-499px] md:mt-[400px] md:h-[400px] text-xl md:px-12 md: bg-gradient-to-br from-stone-500' >
@@ -97,7 +99,7 @@ const Sec_car = () => {
 
       
       <div className=' ml-[-419px] mt-[580px] w-[418px] md:ml-[-1150px] md:w-[498px] md:h-[333px] md:mt-[-30px] py-40 '>
-        <img src='src/assets/g4/mercedes-amg-gt-4-door-1 (1).jpg' />
+        <img src={car2}/>
         </div>
           <div className='py-2 px-2 ml-[-418px] h-[340px] mt-[966px] md:mt-[399px] md:h-[400px] md:ml-[-499px] md:px-12 text-center bg-gradient-to-br from-stone-500 '>
                 <a className='text-xl'>

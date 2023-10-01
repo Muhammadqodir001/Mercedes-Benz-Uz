@@ -1,6 +1,9 @@
 import React from 'react'
 import {FaInstagram, FaFacebook, FaTwitter, FaTelegram, FaPhone} from 'react-icons/fa'
 
+import a1 from '/src/assets/a-class/a1.jpg'
+import a2 from '/src/assets/a-class/a2.jpg'
+
 const A_Class = () => {
   return (
     <div className='w-full  h-[1600px] md:h-[1000px] flex justify-center py-24 bg-zinc-300 '>
@@ -12,7 +15,7 @@ const A_Class = () => {
           <span>Mercedes-Benz A-Class Limousine</span> 
         </a>
           <div className='w-[431px] ml-[-5px] mt-[30px]  md:w-[495px] md:ml-[800px] md:mt-[40px]'>
-            <img src='src/assets/a-class/mercedes-benz-a-class-limousine-1.jpg'/>
+            <img src={a1}/>
           </div>
        </div>
           <div className='py-2 px-2 ml-[-431px] h-[340px] mt-[369px] md:ml-[-495px] md:mt-[424px] md:h-[389px] text-xl md:px-10 md: bg-gradient-to-br from-stone-500' >
@@ -93,7 +96,7 @@ const A_Class = () => {
 
       
       <div className=' ml-[-431px] mt-[580px] w-[431px] md:ml-[-1150px] md:w-[495px] md:h-[333px] md:mt-[-30px] py-40 '>
-        <img src='src/assets/a-class/mercedes-benz-a-class-limousine-1 (2).jpg' />
+        <img src={a2} />
         </div>
           <div className='py-2 px-2 ml-[-431px] h-[340px] mt-[984px] md:mt-[410px] md:h-[400px] md:ml-[-495px] md:px-10 text-center bg-gradient-to-br from-stone-500 '>
                 <a className='text-xl'>

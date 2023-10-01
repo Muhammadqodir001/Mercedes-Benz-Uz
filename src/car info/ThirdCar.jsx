@@ -1,5 +1,6 @@
 import React from 'react'
 import {FaInstagram, FaFacebook, FaTwitter, FaTelegram, FaPhone} from 'react-icons/fa'
+import gel1 from '/src/assets/gelic/gel1.jpg'
 
 const Third_car = () => {
   return (
@@ -12,7 +13,7 @@ const Third_car = () => {
           <span className='ml-[-10px]' >Mercedes-Benz G-Class</span> 
         </a>
           <div className='w-[419px] ml-[px] mt-[30px]  md:w-[499px] md:ml-[800px] md:mt-[40px]'>
-            <img src='src/assets/gelic/mercedes-benz-g-class-1.jpg'/>
+            <img src={gel1}/>
           </div>
          </div>
           <div className='py-2 px-2 ml-[-419px] h-[340px] mt-[345px] md:ml-[-499px] md:mt-[407px] md:h-[400px] text-xl md:px-12 md: bg-gradient-to-br from-stone-500' >
@@ -97,7 +98,7 @@ const Third_car = () => {
 
       
       <div className=' ml-[-419px] mt-[580px] w-[419px] md:ml-[-1150px] md:w-[499px] md:h-[333px] md:mt-[-30px] py-40 '>
-        <img src='src/assets/gelic/mercedes-benz-g-class-1.jpg' />
+        <img src={gel1} />
         </div>
           <div className='py-2 px-2 ml-[-419px] h-[340px] mt-[970px] md:mt-[405px] md:h-[400px] md:ml-[-499px] md:px-12 text-center bg-gradient-to-br from-stone-500 '>
                 <a className='text-xl'>

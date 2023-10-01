@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import { motion } from 'framer-motion';
 import bag from '/src/assets/bag.webp'
 
@@ -25,7 +25,7 @@ const Home = () => {
           className=' px-28 md:px-32 text-white md:ml-[-900px] mt-[-200px] md:mt-[450px] py-3 bg-stone-800 ml-[10px] md:mb-[-100px]  hover:scale-110 duration-500 shadow-md shadow-teal-300  rounded-md  group border-2   my-2 flex items-center hover:bg-violet-500  hover:border-violet-500'>
         
          <button>
-          <Link onClick={handleClick} to='vehicle'> Pick Your car </Link>
+          <Link  spy={true} smooth={true} duration={500}  to='vehicle'> Pick Your car </Link>
         </button>
         </motion.div>
 
