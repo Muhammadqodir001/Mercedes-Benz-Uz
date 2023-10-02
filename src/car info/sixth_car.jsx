@@ -5,19 +5,23 @@ import m2 from '/src/assets/6/m2.jpg'
 
 const Sixth_car = () => {
   return (
-    <div className='w-full  h-[1600px] md:h-[1000px] flex justify-center py-24 bg-zinc-300 '>
-     
-      <div className='text-2xl  md:text-3xl  md:ml-[-800px] text-center mt-[20px]'>
-        <a className='font-bold ml-[-19px] text-center'> 
-          We Have These Types Of
-          <br/>
-          <span className='ml-[-10px]' >Mercedes-Maybach S-Class</span> 
+    <div name="vehicle" className="vehicle w-full justify-between  bg-zinc-300  py-40 h-[1600px] md:h-[980px] mx-auto px-4">
+    <div className="text-center mt-[-30px] md:mt-[-20px]">
+       <a className='font-bold md:text-3xl text-xl md:ml-[0px]'> 
+         We Have These Types Of 
+       <br/>
+       <span className='md:ml-[0px]'>Mercedes-Maybach S-Class</span> 
         </a>
-          <div className='w-[419px] ml-[px] mt-[30px]  md:w-[515px] md:ml-[800px] md:mt-[42px]'>
-            <img src={m1}/>
-          </div>
-         </div>
-          <div className=' py-2 px-2 ml-[-419px] h-[340px] mt-[323px] md:ml-[-515px] md:mt-[390px] md:h-[400px] text-xl md:px-14 md: bg-gradient-to-br from-stone-500' >
+    </div>
+       
+
+        <div className="text-center w-full gap-10 md:gap-20 md:ml-[275px]  mt-[40px] grid sm:grid-cols-1  md:w-[960px]  lg:grid-cols-2 items-center">
+          
+          <div className="card  shadow-md  hover:shadow-2xl py-4 px-3 rounded-md hover:shadow-slate-500  bg-gradient-to-br  from-stone-500  ">
+            <div >
+            <img src={m1} style={{ width: 500 }} />
+            </div>
+   
             <a className='text-center'>
             Mercedes-Maybach S 580L 0252610057
             </a>
@@ -52,15 +56,17 @@ const Sixth_car = () => {
                 <span className='text-sm font-bold'>Car sum:</span>
                 <span className='text-sm'>$257 516.</span> 
            </div>
-           <div className='justify-between md:mt-[80px] flex mt-[40px] '>
-               <a className="text-green-600 hover:scale-125 ml-[245px] mt-[10px] duration-300 hover:text-white">
-                   <FaPhone />
-               </a>
-               <a className='text-xl ml-[10px]'>
-               (555)123-4567
-               </a>
+
+           <div className='justify-between md:mt-[50px] flex mt-[80px]'>
+           <a className="text-green-600 hover:scale-125 ml-[190px] md:ml-[260px] mt-[-20px] duration-300 hover:text-white">
+           <FaPhone />
+           </a>
+           <a className='text-xl ml-[-20px] mt-[-28px] md:ml-[0]'>
+           (555)123-4567
+           </a>
            </div>
-           <div className='justify-between flex md:px-0 px-6 py-6 md:py-8'>
+
+           <div className='justify-between mt-[30px] md:mt-[30px] flex px-4 py-[-90px] md:py-[-50px]'>
            <a
             href="https://www.facebook.com"
             target="_blank"
@@ -94,19 +100,18 @@ const Sixth_car = () => {
             <FaTwitter size={30}/>
           </a>
           </div>
-                
+
           </div>
 
-      
-      <div className=' ml-[-419px] mt-[580px] w-[419px] md:ml-[-1150px] md:w-[499px] md:h-[333px] md:mt-[-30px] py-40 '>
-        <img src={m2} />
-        </div>
-          <div className='py-2 px-2 ml-[-419px] h-[340px] mt-[960px] md:mt-[392px] md:h-[400px] md:ml-[-499px] md:px-12 text-center bg-gradient-to-br from-stone-500 '>
-                <a className='text-xl'>
-                Mercedes-Maybach S 580L 0352601062
-               </a>
-               <br/>
-               <br/>
+          <div className="card shadow-md  hover:shadow-2xl py-4 px-3 rounded-md hover:shadow-slate-500  bg-gradient-to-br   from-stone-500 ">
+            <div className="">
+            <img src={m2} style={{ width: 500 }} />
+            </div>
+   
+            <a className='text-center'>
+            Mercedes-Maybach S 580L 0352601062
+            </a>
+            <br/>
             <br/>
             <div className='flex justify-between '>
                 <span className='text-sm font-bold'>Modification:</span>
@@ -138,16 +143,17 @@ const Sixth_car = () => {
                 <span className='text-sm'>$305 550.</span> 
            </div>
 
-           <div className='justify-between md:mt-[75px] flex mt-[20px]'>
-               <a className="text-green-600 hover:scale-125 ml-[245px] mt-[8px] duration-300 hover:text-white">
-                   <FaPhone  size={20}/>
-               </a>
-               <a className='text-xl ml-[10px]'>
-               (555)123-4567
-               </a>
+
+           <div className='justify-between md:mt-[60px] flex mt-[80px]'>
+           <a className="text-green-600 hover:scale-125 ml-[190px] md:ml-[260px] mt-[-20px] duration-300 hover:text-white">
+           <FaPhone />
+           </a>
+           <a className='text-xl ml-[-20px] mt-[-28px] md:ml-[0]'>
+           (555)123-4567
+           </a>
            </div>
 
-           <div className='justify-between md:px-0 flex px-6 py-6 md:py-8'>
+           <div className='justify-between mt-[30px] md:mt-[30px] flex px-4 py-[-90px] md:py-[-50px]'>
            <a
             href="https://www.facebook.com"
             target="_blank"
@@ -180,10 +186,10 @@ const Sixth_car = () => {
           >
             <FaTwitter size={30}/>
           </a>
-          </div>
-
-          </div>
-
-    </div>
-  )};
+          </div>  
+        </div>
+      </div>
+   </div>
+)
+  };
 export default Sixth_car;
