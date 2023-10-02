@@ -65,7 +65,7 @@ const Contact = () => {
         >
         </motion.div>
     
-        <form onSubmit={handleSubmit} className='flex  flex-col max-w-[600px] w-full'>
+        <form onSubmit={handleSubmit} className='flex md:max-w-[600px] flex-col max-w-[400px] w-full'>
           <motion.div
             initial={{ opacity: 0, scale: 0, x: -1000 }}
             whileInView={{ opacity: 1, scale: 1, x: 0 }}
@@ -73,10 +73,10 @@ const Contact = () => {
             transition={{ delay: 0.5, type: 'spring', stiffness: 120 }}
             className='pb-8'
           >
-            <p className='ml-[120px] md:ml-[200px] text-4xl font-bold inline border-b-4 border-orange-500 text-gray-300'>
+            <p className='ml-[110px] md:ml-[200px] text-4xl font-bold inline border-b-4 border-orange-500 text-gray-300'>
               Contact Us
             </p>
-            <p className='ml-[110px] md:ml-[200px] text-gray-300 py-4'>
+            <p className='ml-[100px] md:ml-[200px] text-gray-300 py-4'>
                 Contact us any time you want.
             </p>
           </motion.div>
@@ -101,7 +101,7 @@ const Contact = () => {
         </motion.div>
 
 
-        <textarea className=' rounded-sm bg-[#ccd6f6] p-3' name="message" rows="5" placeholder='Message' value={message} onChange={handleChange} required></textarea>
+        <textarea className=' rounded-sm bg-[#ccd6f6]  p-3' name="message" rows="5" placeholder='Message' value={message} onChange={handleChange} required></textarea>
       
        
         <div>
