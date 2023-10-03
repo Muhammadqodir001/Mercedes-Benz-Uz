@@ -55,7 +55,7 @@ const Contact = () => {
   };
 
   return (
-    <div name='contact' className='w-full h-[900px] bg-black flex justify-center items-center '>
+    <div name='contact' className='w-full h-[750px] bg-black flex justify-center items-center '>
        
         <motion.div
           initial={{ opacity: 0, scale: 0, x: -1000 }}
@@ -65,7 +65,7 @@ const Contact = () => {
         >
         </motion.div>
     
-        <form onSubmit={handleSubmit} className='flex md:max-w-[600px] flex-col max-w-[400px] w-full'>
+        <form onSubmit={handleSubmit} className='flex md:max-w-[600px]  flex-col max-w-[400px] w-full'>
           <motion.div
             initial={{ opacity: 0, scale: 0, x: -1000 }}
             whileInView={{ opacity: 1, scale: 1, x: 0 }}

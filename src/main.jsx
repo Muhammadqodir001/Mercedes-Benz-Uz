@@ -4,9 +4,7 @@ import App from './App.jsx'
 import './index.css'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
  
-// Main Pages start here
-import ContactPage from './routes/ContactPage.jsx'
-import VehiclePage from './routes/VehiclePage.jsx'
+
 
 // car info starts here
 import First_page from './routes/FirstPage.jsx'
@@ -20,9 +18,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
     <BrowserRouter>
     <Routes>
-      <Route path='/' element={<App />} />
-      <Route path='/contact' element={<ContactPage />} />
-      <Route path='/vehicle' element={<VehiclePage/>} />
+       <Route path='/' element={<App />} />
+     
 
       <Route path="/a_class" element={<First_page/>}/>
       <Route path="/sec_car" element={<Sec_page/>}/>

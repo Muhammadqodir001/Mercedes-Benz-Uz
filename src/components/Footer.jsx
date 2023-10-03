@@ -17,7 +17,7 @@ const Footer = () => {
            
         </div>
 
-        <Link activeClass="active" to="top" spy={true} smooth={true} duration={500} >
+        <Link  to="home" spy={true} smooth={true} duration={500} >
                         <BsFillArrowUpCircleFill className='text-3xl ml-[10px] mt-[-50px] md:text-4xl md:mt-[20px] md:ml-[50px] hover:text-white hover:scale-110' />
                     </Link>
                     <div className="mt-[10px] md:mt-[35px]">
