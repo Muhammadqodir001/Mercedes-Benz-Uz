@@ -3,7 +3,7 @@ import { Link } from 'react-scroll';
 import { motion } from 'framer-motion';
 import bag from '/src/assets/bag.webp'
 import bgv from '/src/assets/bgv.mp4'
-import logo from 'src/assets/log.jpg'
+import logo from '/src/assets/log.jpg'
 
 const Home = () => {
   const [nav, setNav] = useState(false);
