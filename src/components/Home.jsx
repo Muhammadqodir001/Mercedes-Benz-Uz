@@ -3,6 +3,7 @@ import { Link } from 'react-scroll';
 import { motion } from 'framer-motion';
 import bag from '/src/assets/bag.webp'
 import bgv from '/src/assets/bgv.mp4'
+import logo from 'src/assets/log.jpg'
 
 const Home = () => {
   const [nav, setNav] = useState(false);
@@ -14,7 +15,7 @@ const Home = () => {
          <video className=' md:h-[100%] h-[100%]' style={{ objectFit: 'cover', width: '100%', }} src={bgv} autoPlay muted loop />
     </div>
      <div className='absolute md:ml-[1300px]  ml-[320px] mt-[-540px] md:mt-[-500px] text-white text-2xl'>
-     <img  className='rounded-full hover:scale-90 duration-500 w-[120px] md:w-[150px]' src='src/assets/97c191d03aed24ba71309d863e9905a9.jpg' />
+     <img  className='rounded-full hover:scale-90 duration-500 w-[120px] md:w-[150px]' src={logo} />
      
      </div>
 
