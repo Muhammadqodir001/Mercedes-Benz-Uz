@@ -1,7 +1,8 @@
 import React from "react";
 import { BsFillArrowUpCircleFill } from 'react-icons/bs'
-import {  FiFacebook, FiGithub, FiInstagram, FiLinkedin, FiDribbble } from 'react-icons/fi'
+import {  FiFacebook,  FiInstagram, FiLinkedin } from 'react-icons/fi'
 import {Link} from 'react-scroll'
+import { BsYoutube } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -12,8 +13,8 @@ const Footer = () => {
                             <FiInstagram className='hover:text-white hover:scale-110' />
                             <FiFacebook className='hover:text-white hover:scale-110' />
                             <FiLinkedin className='hover:text-white hover:scale-110' />
-                            <FiDribbble className='hover:text-white hover:scale-110' />
-                            <FiGithub className='hover:text-white hover:scale-110' />
+                             <BsYoutube className='hover:text-white hover:scale-110' />
+               
            
         </div>
 

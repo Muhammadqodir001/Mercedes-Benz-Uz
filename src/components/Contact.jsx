@@ -55,7 +55,7 @@ const Contact = () => {
   };
 
   return (
-    <div name='contact' className='w-full h-[750px] bg-black flex justify-center items-center '>
+    <div name='contact' className='w-full h-[750px] bg-black mt-[-60px] flex justify-center items-center '>
        
         <motion.div
           initial={{ opacity: 0, scale: 0, x: -1000 }}
