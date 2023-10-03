@@ -8,6 +8,8 @@ import gelic from '/src/assets/gelic/gelic.webp'
 import car4 from '/src/assets/lass-w/car4.webp'
 import car5 from '/src/assets/5/car5.webp'
 import car6 from '/src/assets/6/car6.webp'
+import { Fade, Reveal } from 'react-reveal';
+
 
 const Vehicle = () => {
 
@@ -18,7 +20,7 @@ const Vehicle = () => {
       </div>
 
       <div className="font-bold  w-full mt-10 text-center gap-6 md:gap-60 grid grid-cols-1 sm:grid-cols-1 md:ml-[150px] md:mt-[150px] lg:grid-cols-3 md:h-[200px] md:w-[1300px] items-center">
-       
+        <Fade bottom>
           <div className="card rounded-md hover:shadow-2xl py-10 px-3 hover:shadow-slate-500 md:bg-none bg-gradient-to-br from-gray-300 ">
             <h3 >Mercedes Benz A-Class limousine</h3>
             <div className="hover:scale-90 duration-300">
@@ -41,9 +43,9 @@ const Vehicle = () => {
             </div>
             </div>
           </div>
-  
+          </Fade>
  
-
+        <Fade bottom>
           <div className="card hover:shadow-2xl rounded-md py-10 px-3 hover:shadow-slate-500 md:bg-none bg-gradient-to-br from-gray-300 ">
             <h3>Mercedes-AMG GT 4</h3>
             <div className="hover:scale-90 duration-300">
@@ -66,9 +68,10 @@ const Vehicle = () => {
             </div>
             </div>
           </div>
+          </Fade>
           
+      <Fade bottom>
       {/* The third car starts */}
-
       <div className="card hover:shadow-2xl rounded-md py-10 px-3 hover:shadow-slate-500 md:bg-none bg-gradient-to-br from-gray-300 ">
             <h3>Mercedes-Benz G-Class</h3>
             <div className="hover:scale-90 duration-300">
@@ -91,9 +94,10 @@ const Vehicle = () => {
             </div>
             </div>
           </div>
+          </Fade>
 
          {/* The forth car starts */}
-
+         <Fade bottom>
       <div className="card hover:shadow-2xl rounded-md py-10 px-3 hover:shadow-slate-500 md:bg-none bg-gradient-to-br from-gray-300 ">
             <h3>Mercedes-Benz S-Class</h3>
             <div className="hover:scale-90 duration-300">
@@ -116,9 +120,9 @@ const Vehicle = () => {
             </div>
             </div>
           </div>
-           
+          </Fade>
              {/* The fifth car starts */}
-
+             <Fade bottom>
       <div className="card hover:shadow-2xl rounded-md  py-10 px-3 hover:shadow-slate-500 md:bg-none bg-gradient-to-br from-gray-300 ">
             <h3>Mercedes-Benz CLS Coupe</h3>
             <div className="hover:scale-90 duration-300">
@@ -141,9 +145,9 @@ const Vehicle = () => {
             </div>
             </div>
           </div>
-
+          </Fade>
             {/* The sixth car starts */}
-
+            <Fade bottom>
       <div className="card hover:shadow-2xl rounded-md py-10 px-3 hover:shadow-slate-500 md:bg-none bg-gradient-to-br from-gray-300 ">
             <h3>Mercedes-Maybach S-Class</h3>
             <div className="hover:scale-90 duration-300">
@@ -166,7 +170,7 @@ const Vehicle = () => {
             </div>
             </div>
           </div>
-
+          </Fade>
           </div>
     </div> 
 );
